@@ -1,0 +1,50 @@
+Installation
+------------
+
+1) Install Node.js
+2) Install Mongo DB
+3) Install Chocolatey
+4) Install npm
+		choco install npm
+5) Install Express
+     	npm install express
+6) Install mongo skin
+		npm install mongoskin
+
+Using mongo DB
+--------------
+
+1) create database 
+  	use DB_NAME
+
+Create project
+--------------
+
+1) Create project
+	express PROJECT_NAME
+
+2) Change package.json
+	"mongodb": "*",
+    "monk": "*"
+
+3) npm install --save body-parser
+
+4) Move in to project base folder 
+	npm install
+
+5) npm start
+
+
+
+Follow ***
+
+References
+----------
+
+* http://www.raywenderlich.com/61078/write-simple-node-jsmongodb-web-service-ios-app
+
+** http://www.tutorialspoint.com/mongodb/
+
+*** http://cwbuecheler.com/web/tutorials/2013/node-express-mongo/
+
+**** http://cwbuecheler.com/web/tutorials/2014/restful-web-app-node-express-mongodb/
